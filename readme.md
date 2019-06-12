@@ -1,8 +1,15 @@
 # go rocksdb #
 
-# rocksdb 安装&编译 #
+gorocksdb: `git clone https://github.com/facebook/rocksdb.git`
 
-1. `git clone https://github.com/facebook/rocksdb.git`
+# 测试 #
+
+1. 更新子模块
+
+```
+    git submodule init
+    git submodule update
+```
 
 2. 依赖库安装
 
